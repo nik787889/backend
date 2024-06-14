@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
 // // Route-Middlewares
 // app.use('/', checkAuth, staticRoute)
-app.use('/login', loggedInUserOnly, router)
+// app.use('/login', loggedInUserOnly, router)
 
 // // Route
 app.use(router)
